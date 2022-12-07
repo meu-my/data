@@ -1,4 +1,5 @@
 url = "nicoRank.json"
+alert('Hello world!');
 
 $.getJSON(url, (data) => {
     index_max = data.data.length
